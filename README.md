@@ -10,7 +10,7 @@ This repository contains all scripts and workflows for the analysis landscape.
 
 Here is the workflow for analysis:
 
-1.  Downloading Data Land Use and Land Cover (LULC) Analysis with Google Earth. The options for downloading this information comes from:
+1.  Download land use and land cover (LULC) analysis data with Google Earth. Options for downloading this information:
 
 | Satellite        | Spatial Resolution | Revisit Time  | General Description |
 |------------------|--------------------|---------------|----------------------|
@@ -55,7 +55,7 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 
 https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32
 
-# Refereneces
+# References
 https://www.youtube.com/watch?v=ReS6iN5alDE&ab_channel=StudyHacks-InstituteofGIS%26RemoteSensing
 
 
