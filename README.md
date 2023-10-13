@@ -12,8 +12,6 @@ Here is the workflow for analysis:
 
 1.  Downloading Data Land Use and Land Cover (LULC) Analysis with Google Earth. The options for downloading this information comes from:
 
- Certainly! Here's an updated table with an additional column for general information:
-
 | Satellite        | Spatial Resolution | Revisit Time  | General Description |
 |------------------|--------------------|---------------|----------------------|
 | Landsat 8        | 30m (visible and IR), 15m (panchromatic) | 16 days | Free (USGS), operated by NASA/USGS |
@@ -22,6 +20,6 @@ Here is the workflow for analysis:
 | WorldView-2      | 46cm (panchromatic), 1.8m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 | WorldView-3      | 31cm (panchromatic), 1.24m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 
-Feel free to use this in your GitHub README, and if you need any further adjustments or have additional details to include, let me know!
+
 
 
