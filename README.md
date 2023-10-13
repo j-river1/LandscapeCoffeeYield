@@ -4,3 +4,12 @@ Exploring the vast landscape of my PhD research journey, where the cultivation o
 
 ![Coffee and Code](https://live.staticflickr.com/1025/4733927920_e4638cef18_4k.jpg)
 
+# Description 
+
+In this repositry contains all scripts and workflow for analysis landscape. 
+
+Here is workflow for analysis:
+
+1.  Download data Land Use and Land Cover (LULC) analysis using Google Earth 
+
+
