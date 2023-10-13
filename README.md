@@ -6,10 +6,10 @@ Exploring the vast landscape of my PhD research journey, where the cultivation o
 
 # Description 
 
-In this repositry contains all scripts and workflow for analysis landscape. 
+This repository contains all scripts and workflows for the analysis landscape.
 
-Here is workflow for analysis:
+Here is the workflow for analysis:
 
-1.  Download data Land Use and Land Cover (LULC) analysis using Google Earth 
+1.  Downloading Data Land Use and Land Cover (LULC) Analysis with Google Earth
 
 
