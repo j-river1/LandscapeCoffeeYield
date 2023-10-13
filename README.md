@@ -10,7 +10,7 @@ This repository contains all scripts and workflows for the analysis landscape.
 
 Here is the workflow for analysis:
 
-1.  Download land use and land cover (LULC) analysis data with Google Earth. Options for downloading this information:
+1.  Download land use and land cover (LULC) https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32 analysis data with Google Earth. Options for downloading this information:
 
 | Satellite        | Spatial Resolution | Revisit Time  | General Description |
 |------------------|--------------------|---------------|----------------------|
@@ -51,6 +51,19 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 |              | Bit 10: Opaque clouds        | -    | -    | -          | -     | -                                                | -      |
 |              | Bit 11: Cirrus clouds        | -    | -    | -          | -     | -                                                | -      |
 
+| Value | Color   | Color Value | Description                       |
+|-------|---------|-------------|-----------------------------------|
+| 1     | #ff0004 | Saturated or defective              |
+| 2     | #868686 | Dark Area Pixels                   |
+| 3     | #774b0a | Cloud Shadows                      |
+| 4     | #10d22c | Vegetation                         |
+| 5     | #ffff52 | Bare Soils                         |
+| 6     | #0000ff | Water                             |
+| 7     | #818181 | Clouds Low Probability / Unclassified |
+| 8     | #c0c0c0 | Clouds Medium Probability          |
+| 9     | #f1f1f1 | Clouds High Probability            |
+| 10    | #bac5eb | Cirrus                            |
+| 11    | #52fff9 | Snow / Ice                         |
 
 
 https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32
