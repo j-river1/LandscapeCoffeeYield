@@ -51,19 +51,22 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 |              | Bit 10: Opaque clouds        | -    | -    | -          | -     | -                                                | -      |
 |              | Bit 11: Cirrus clouds        | -    | -    | -          | -     | -                                                | -      |
 
-| Value | Color   | Color Value | Description                       |
-|-------|---------|-------------|-----------------------------------|
-| 1     | #ff0004 | Saturated or defective              |
-| 2     | #868686 | Dark Area Pixels                   |
-| 3     | #774b0a | Cloud Shadows                      |
-| 4     | #10d22c | Vegetation                         |
-| 5     | #ffff52 | Bare Soils                         |
-| 6     | #0000ff | Water                             |
-| 7     | #818181 | Clouds Low Probability / Unclassified |
-| 8     | #c0c0c0 | Clouds Medium Probability          |
-| 9     | #f1f1f1 | Clouds High Probability            |
-| 10    | #bac5eb | Cirrus                            |
-| 11    | #52fff9 | Snow / Ice                         |
+
+
+| Value | Color   | Color Value | 
+|-------|---------|-------------|
+| 1     | Saturated or defective | <span style="background-color:#ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 2     | Dark Area Pixels | <span style="background-color:#404040;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 3     | Cloud Shadows | <span style="background-color:#8b4513;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 4     | Vegetation | <span style="background-color:#008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 5     | Bare Soils | <span style="background-color:#ffd700;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 6     | Water | <span style="background-color:#0000ff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 7     | Clouds Low Probability / Unclassified | <span style="background-color:#808080;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 8     | Clouds Medium Probability | <span style="background-color:#a9a9a9;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 9     | Clouds High Probability | <span style="background-color:#d3d3d3;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 10    | Cirrus | <span style="background-color:#add8e6;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 11    | Snow / Ice | <span style="background-color:#87ceeb;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+
 
 
 https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32
