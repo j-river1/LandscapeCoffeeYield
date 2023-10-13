@@ -55,21 +55,19 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 
 | Value | Color   | Color Value | 
 |-------|---------|-------------|
-| 1     | Saturated or defective | <span style="background-color:#ff0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 2     | Dark Area Pixels | <span style="background-color:#404040;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 3     | Cloud Shadows | <span style="background-color:#8b4513;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 4     | Vegetation | <span style="background-color:#008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 5     | Bare Soils | <span style="background-color:#ffd700;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 6     | Water | <span style="background-color:#0000ff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 7     | Clouds Low Probability / Unclassified | <span style="background-color:#808080;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 8     | Clouds Medium Probability | <span style="background-color:#a9a9a9;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 9     | Clouds High Probability | <span style="background-color:#d3d3d3;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 10    | Cirrus | <span style="background-color:#add8e6;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
-| 11    | Snow / Ice | <span style="background-color:#87ceeb;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> |
+| 1     | Saturated or defective | ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) |
+| 2     | Dark Area Pixels | ![#404040](https://via.placeholder.com/15/404040/000000?text=+) |
+| 3     | Cloud Shadows | ![#8b4513](https://via.placeholder.com/15/8b4513/000000?text=+) |
+| 4     | Vegetation | ![#008000](https://via.placeholder.com/15/008000/000000?text=+) |
+| 5     | Bare Soils | ![#ffd700](https://via.placeholder.com/15/ffd700/000000?text=+) |
+| 6     | Water | ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) |
+| 7     | Clouds Low Probability / Unclassified | ![#808080](https://via.placeholder.com/15/808080/000000?text=+) |
+| 8     | Clouds Medium Probability | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) |
+| 9     | Clouds High Probability | ![#d3d3d3](https://via.placeholder.com/15/d3d3d3/000000?text=+) |
+| 10    | Cirrus | ![#add8e6](https://via.placeholder.com/15/add8e6/000000?text=+) |
+| 11    | Snow / Ice | ![#87ceeb](https://via.placeholder.com/15/87ceeb/000000?text=+) |
 
 
-
-https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32
 
 # References
 https://www.youtube.com/watch?v=ReS6iN5alDE&ab_channel=StudyHacks-InstituteofGIS%26RemoteSensing
