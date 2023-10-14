@@ -80,6 +80,9 @@ https://www.youtube.com/channel/UCqOIlsepzeVXdnndB6xtbWQ
 
 https://www.flickr.com/photos/ciat/50982571191/in/album-72157718443664588/
 
+https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED
+
+
 
 
 
