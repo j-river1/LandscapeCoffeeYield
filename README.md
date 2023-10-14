@@ -71,8 +71,11 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 
 # References
 https://www.youtube.com/watch?v=ReS6iN5alDE&ab_channel=StudyHacks-InstituteofGIS%26RemoteSensing
+
 https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/
+
 https://www.youtube.com/watch?v=K0DVIyLOlzI&ab_channel=MasterGIS
+
 https://www.youtube.com/channel/UCqOIlsepzeVXdnndB6xtbWQ
 
 
