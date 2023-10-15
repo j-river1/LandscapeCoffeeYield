@@ -1,0 +1,43 @@
+// Import the Sentinel-2 image collection.
+var sentinel2 = ee.ImageCollection('COPERNICUS/S2');
+
+// Load the shapefile as a feature collection.
+var roi = ee.FeatureCollection('projects/ee-lacicladelosdos/assets/Quindio');
+
+// Set the time range for the data.
+var startDate = '2021-12-01';
+var endDate = '2022-12-31';
+
+// Filter the collection based on the ROI and time range.
+var filteredCollection = sentinel2
+  .filterBounds(roi)
+  .filterDate(startDate, endDate);
+
+// Filter by cloud cover.
+var filteredByCloud = filteredCollection.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 10));
+
+// Select the bands you want (e.g., B4, B3, B2 for RGB).
+var rgbBands = ['B4', 'B3', 'B2'];
+
+// Export function.
+var exportFCIR = function(image) {
+  var imageName = image.id().getInfo();
+
+  // Export the image to Google Drive.
+  Export.image.toDrive({
+    image: image.select(rgbBands), // Use rgbBands instead of fcirBands
+    description: 'QuindioSentinel_' + imageName,
+    scale: 10, // Adjust the scale according to your needs.
+    region: roi.geometry().bounds(),
+    folder: 'YourFolderName', // Replace with your desired folder name in Google Drive.
+    maxPixels: 1e13
+  });
+};
+
+// Export images to Google Drive.
+filteredByCloud.evaluate(function(images) {
+  images.features.forEach(function(feature) {
+    var image = ee.Image(feature.id);
+    exportFCIR(image);
+  });
+});
