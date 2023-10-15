@@ -27,6 +27,25 @@ For (LULC), we have
 | Dynamic World         | Sentinel-2            | 10m        | Near-real-time (NRT) Land Use/Land Cover (LULC) dataset. Includes class probabilities and label information for nine classes. |
 | MCD12Q1.061           | MODIS Terra and Aqua  | 500m       | MODIS Land Cover Type Yearly Global dataset at 500m resolution. |
 
+Due to plot analysis, the MO is suit for this case. For this, we have the following options:
+
+1. **LC_Type1 (Annual IGBP classification):**
+   - Classes include various types of forests, shrublands, grasslands, wetlands, croplands, urban areas, and more.
+   - Each class has a specific color, and you can choose the one that aligns with the land cover type you are interested in.
+
+2. **LC_Type2 (Annual UMD classification):**
+   - Similar to LC_Type1, but with different class definitions and colors.
+
+3. **LC_Type3 (Annual Leaf Area Index classification):**
+   - Includes grasslands, shrublands, croplands, forests, wetlands, and urban areas.
+
+4. **LC_Type4 (Annual BIOME-BGC classification):**
+   - Differentiates between vegetation types, croplands, and non-vegetated lands.
+
+5. **LC_Type5 (Annual Plant Functional Types classification):**
+   - Represents different types of vegetation, including trees, shrubs, grasses, and croplands.
+
+
 Ahi que quitar esto:
 
 | Value | Color   | Color Value | 
@@ -68,6 +87,8 @@ https://www.youtube.com/channel/UCqOIlsepzeVXdnndB6xtbWQ
 https://www.flickr.com/photos/ciat/50982571191/in/album-72157718443664588/
 
 https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED
+
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1
 
 
 
