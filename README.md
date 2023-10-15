@@ -27,7 +27,8 @@ For (LULC), we have
 | Dynamic World         | Sentinel-2            | 10m        | Near-real-time (NRT) Land Use/Land Cover (LULC) dataset. Includes class probabilities and label information for nine classes. |
 | MCD12Q1.061           | MODIS Terra and Aqua  | 500m       | MODIS Land Cover Type Yearly Global dataset at 500m resolution. |
 
-Due to plot analysis, the MO is suit for this case. For this, we have the following options:
+Based on the plot analysis, the MODIS is suitable for this case. For this we have the following options:
+
 
 1. **LC_Type1 (Annual IGBP classification):**
    - Classes include various types of forests, shrublands, grasslands, wetlands, croplands, urban areas, and more.
