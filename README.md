@@ -67,7 +67,7 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 | 10    | Cirrus | ![#add8e6](https://via.placeholder.com/15/add8e6/000000?text=+) |
 | 11    | Snow / Ice | ![#87ceeb](https://via.placeholder.com/15/87ceeb/000000?text=+) |
 
-There is a parameter to measure the amount of clouds in the zone. In this case, the umbral is 100%, which means that the zone is basically covered by clouds. In Quindio department, they surveys were collected between July and November 2022. 
+There is a parameter to measure the amount of clouds,CLOUDY_PIXEL_PERCENTAGE, in the zone. In this case, the umbral is 100%, which means that the zone is basically covered by clouds. In Quindio department, they surveys were collected between July and November 2022. 
 
 
 # References
