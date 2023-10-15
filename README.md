@@ -46,6 +46,15 @@ Based on the plot analysis, the MODIS is suitable for this case. For this we hav
 5. **LC_Type5 (Annual Plant Functional Types classification):**
    - Represents different types of vegetation, including trees, shrubs, grasses, and croplands.
 
+The IGBP (International Geosphere-Biosphere Programme) classification is a system used to categorize land cover types based on their characteristics. It was developed by the IGBP, an international scientific research program that aimed to study global-scale interactions between Earth's biological, chemical, and physical processes.
+
+The IGBP land cover classification system categorizes different types of land cover, including natural vegetation, agricultural areas, urban areas, and more. Each land cover type is assigned a specific class code and label. This classification system has been widely used in remote sensing and environmental research to characterize and analyze the Earth's surface.
+
+The classes in the IGBP classification system cover a broad range of land cover types, providing a comprehensive framework for understanding the distribution of different ecosystems and land uses on a global scale. For example, classes may include evergreen forests, deciduous forests, shrublands, grasslands, croplands, wetlands, and urban areas.
+
+Researchers and scientists use the IGBP classification to interpret satellite imagery, conduct land cover change analysis, and understand the distribution of different land cover types across regions and continents. The classification system is a valuable tool for studying and monitoring the dynamics of the Earth's surface and its changes over time.
+
+
 
 Ahi que quitar esto:
 
