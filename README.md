@@ -20,6 +20,14 @@ Here is the workflow for analysis:
 | WorldView-2      | 46cm (panchromatic), 1.8m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 | WorldView-3      | 31cm (panchromatic), 1.24m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 
+For (LULC), we have:
+
+| Dataset               | Satellite             | Resolution | Description |
+|-----------------------|-----------------------|------------|-------------|
+| Dynamic World         | Sentinel-2            | 10m        | Near-real-time (NRT) Land Use/Land Cover (LULC) dataset. Includes class probabilities and label information for nine classes. |
+| MCD12Q1.061           | MODIS Terra and Aqua  | 500m       | MODIS Land Cover Type Yearly Global dataset at 500m resolution. |
+
+
 The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: MultiSpectral Instrument, Level-2A.
 
 | Band  | Description                       | Min  | Max  | Resolution | Units | Wavelength                                       | Scale  |
