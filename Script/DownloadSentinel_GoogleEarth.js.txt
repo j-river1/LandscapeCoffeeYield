@@ -19,6 +19,14 @@ var filteredByCloud = filteredCollection.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCE
 // Select the bands you want (e.g., B4, B3, B2 for RGB).
 var rgbBands = ['B4', 'B3', 'B2'];
 
+
+// Visualize the map in Google Earth Engine before saving.
+Map.centerObject(roi, 10);  // Center the map on the region of interest.
+Map.addLayer(filteredByCloud, {bands: rgbBands, max: 3000}, 'Filtered Images');
+// Add the region of interest (ROI) as a layer with different color boundaries.
+Map.addLayer(roi, {color: 'FF0000'}, 'Region of Interest'); 
+
+
 // Export function.
 var exportFCIR = function(image) {
   var imageName = image.id().getInfo();
@@ -41,3 +49,4 @@ filteredByCloud.evaluate(function(images) {
     exportFCIR(image);
   });
 });
+
