@@ -69,6 +69,16 @@ The downloanding process was using Goolge Earth Engine with Sentinel-2 MSI: Mult
 
 There is a parameter to measure the amount of clouds,CLOUDY_PIXEL_PERCENTAGE, in the zone. In this case, the umbral is 100%, which means that the zone is basically covered by clouds. In Quindio department, they surveys were collected between July and November 2022. 
 
+The bands are ['B4', 'B3', 'B2']. According to chatGPT,  Land Use and Land Cover (LULC) classification often involves using different combinations of spectral bands to distinguish between different land cover types. While true-color RGB imagery is useful for visualization, for LULC classification, you typically use bands that are sensitive to different land cover characteristics.
+
+For Sentinel-2, common band combinations used for LULC classification include:
+
+Natural Color (RGB): Bands 4 (Red), 3 (Green), and 2 (Blue).
+False Color Infrared (FCIR): Bands 8 (NIR), 4 (Red), and 3 (Green).
+Normalized Difference Vegetation Index (NDVI): Bands 8 (NIR) and 4 (Red).
+
+
+
 
 # References
 https://www.youtube.com/watch?v=ReS6iN5alDE&ab_channel=StudyHacks-InstituteofGIS%26RemoteSensing
