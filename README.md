@@ -20,7 +20,7 @@ Here is the workflow for analysis:
 | WorldView-2      | 46cm (panchromatic), 1.8m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 | WorldView-3      | 31cm (panchromatic), 1.24m (multispectral) | Varies, typically several days | Commercial (DigitalGlobe), operated by Maxar Technologies |
 
-For (LULC), we have:
+For (LULC), we have
 
 | Dataset               | Satellite             | Resolution | Description |
 |-----------------------|-----------------------|------------|-------------|
