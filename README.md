@@ -9,7 +9,7 @@ Exploring the vast landscape of my PhD research journey, where the cultivation o
 This repository contains all scripts and workflows for the analysis landscape.
 
 Here is the workflow for analysis:
-
+## Data
 1.  Download land use and land cover (LULC) https://code.earthengine.google.com/b99f1904c7a5c5902fa17608e8a08e32 analysis data with Google Earth. Options for downloading this information:
 
 | Satellite        | Spatial Resolution | Revisit Time  | General Description |
@@ -30,20 +30,20 @@ For (LULC), we have
 Based on the plot analysis, the MODIS is suitable for this case. For this we have the following options:
 
 
-1. **LC_Type1 (Annual IGBP classification):**
+ **LC_Type1 (Annual IGBP classification):**
    - Classes include various types of forests, shrublands, grasslands, wetlands, croplands, urban areas, and more.
    - Each class has a specific color, and you can choose the one that aligns with the land cover type you are interested in.
 
-2. **LC_Type2 (Annual UMD classification):**
+ **LC_Type2 (Annual UMD classification):**
    - Similar to LC_Type1, but with different class definitions and colors.
 
-3. **LC_Type3 (Annual Leaf Area Index classification):**
+ **LC_Type3 (Annual Leaf Area Index classification):**
    - Includes grasslands, shrublands, croplands, forests, wetlands, and urban areas.
 
-4. **LC_Type4 (Annual BIOME-BGC classification):**
+ **LC_Type4 (Annual BIOME-BGC classification):**
    - Differentiates between vegetation types, croplands, and non-vegetated lands.
 
-5. **LC_Type5 (Annual Plant Functional Types classification):**
+ **LC_Type5 (Annual Plant Functional Types classification):**
    - Represents different types of vegetation, including trees, shrubs, grasses, and croplands.
 
 The IGBP (International Geosphere-Biosphere Programme) classification is a system used to categorize land cover types based on their characteristics. It was developed by the IGBP, an international scientific research program that aimed to study global-scale interactions between Earth's biological, chemical, and physical processes.
@@ -83,10 +83,13 @@ False Color Infrared (FCIR): Bands 8 (NIR), 4 (Red), and 3 (Green).
 Normalized Difference Vegetation Index (NDVI): Bands 8 (NIR) and 4 (Red).
 
 
+## Methods
 
+Once we have the data and area, we proceed with metrics for landscape. We are using the package in R landscapemetrics. 
 
 # References
-https://www.youtube.com/watch?v=ReS6iN5alDE&ab_channel=StudyHacks-InstituteofGIS%26RemoteSensing
+
+https://r-spatialecology.github.io/landscapemetrics/
 
 https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/
 
