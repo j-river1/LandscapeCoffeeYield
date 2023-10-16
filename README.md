@@ -83,6 +83,51 @@ False Color Infrared (FCIR): Bands 8 (NIR), 4 (Red), and 3 (Green).
 Normalized Difference Vegetation Index (NDVI): Bands 8 (NIR) and 4 (Red).
 
 
+
+I apologize for any confusion in my previous messages. It seems there might have been some misunderstanding. The "Reproject layer" tool is not available directly in the Processing Toolbox by default. Instead, you can use the "Reproject" tool from the main QGIS menu. Here's how you can access it:
+
+
+###  Create Buffers Around Points:
+Use the "Buffer" Tool:
+
+Go to the "Vector" menu.
+Select "Geoprocessing Tools" > "Buffer."
+Configure Buffer Parameters:
+
+In the Buffer dialog:
+Select your points layer as the "Input layer."
+Specify the buffer distance (e.g., 500 meters).
+Choose an appropriate buffer unit (e.g., meters or kilometers).
+Specify an output location and file name for the new buffer layer.
+Click "Run" to create the buffers.
+Adjust Buffer Settings (Optional):
+
+
+### Reprojecting Data to a Projected CRS:
+
+1. **Identify Current CRS:**
+   - Right-click on your layer in the Layers Panel.
+   - Select "Properties."
+   - Go to the "Source" tab to see the current CRS.
+
+2. **Access the "Reproject" Tool:**
+   - In the main QGIS menu, go to "Vector."
+   - Select "Data Management Tools" > "Reproject Layer."
+
+3. **Configure Reprojection Settings:**
+   - Select your layer as the "Input layer."
+   - Choose the target CRS that uses meters EPSG Code: EPSG:32618
+   - Specify an output location and file name for the reprojected layer geopackage.
+
+4. **Run the Tool:**
+   - Click "Run" to execute the tool.
+
+5. **Check the Result:**
+   - Once the tool completes, add the reprojected layer to your map and check its properties to ensure it now uses a projected CRS.
+
+
+
+
 ## Methods
 
 Once we have the data and area, we proceed with metrics for landscape. We are using the package in R landscapemetrics. 
