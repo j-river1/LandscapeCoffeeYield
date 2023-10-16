@@ -72,6 +72,31 @@ Ahi que quitar esto:
 | 10    | Cirrus | ![#add8e6](https://via.placeholder.com/15/add8e6/000000?text=+) |
 | 11    | Snow / Ice | ![#87ceeb](https://via.placeholder.com/15/87ceeb/000000?text=+) |
 
+
+| Value | Color | Description |
+|-------|-------|-------------|
+| 1     | ![#05450a](https://via.placeholder.com/15/05450a/000000?text=+) | Evergreen Needleleaf Forests: dominated by evergreen conifer trees (canopy >2m). Tree cover >60%. |
+| 2     | ![#086a10](https://via.placeholder.com/15/086a10/000000?text=+) | Evergreen Broadleaf Forests: dominated by evergreen broadleaf and palmate trees (canopy >2m). Tree cover >60%. |
+| 3     | ![#54a708](https://via.placeholder.com/15/54a708/000000?text=+) | Deciduous Needleleaf Forests: dominated by deciduous needleleaf (larch) trees (canopy >2m). Tree cover >60%. |
+| 4     | ![#78d203](https://via.placeholder.com/15/78d203/000000?text=+) | Deciduous Broadleaf Forests: dominated by deciduous broadleaf trees (canopy >2m). Tree cover >60%. |
+| 5     | ![#009900](https://via.placeholder.com/15/009900/000000?text=+) | Mixed Forests: dominated by neither deciduous nor evergreen (40-60% of each) tree type (canopy >2m). Tree cover >60%. |
+| 6     | ![#c6b044](https://via.placeholder.com/15/c6b044/000000?text=+) | Closed Shrublands: dominated by woody perennials (1-2m height) >60% cover. |
+| 7     | ![#dcd159](https://via.placeholder.com/15/dcd159/000000?text=+) | Open Shrublands: dominated by woody perennials (1-2m height) 10-60% cover. |
+| 8     | ![#dade48](https://via.placeholder.com/15/dade48/000000?text=+) | Woody Savannas: tree cover 30-60% (canopy >2m). |
+| 9     | ![#fbff13](https://via.placeholder.com/15/fbff13/000000?text=+) | Savannas: tree cover 10-30% (canopy >2m). |
+| 10    | ![#b6ff05](https://via.placeholder.com/15/b6ff05/000000?text=+) | Grasslands: dominated by herbaceous annuals (<2m). |
+| 11    | ![#27ff87](https://via.placeholder.com/15/27ff87/000000?text=+) | Permanent Wetlands: permanently inundated lands with 30-60% water cover and >10% vegetated cover. |
+| 12    | ![#c24f44](https://via.placeholder.com/15/c24f44/000000?text=+) | Croplands: at least 60% of area is cultivated cropland. |
+| 13    | ![#a5a5a5](https://via.placeholder.com/15/a5a5a5/000000?text=+) | Urban and Built-up Lands: at least 30% impervious surface area including building materials, asphalt and vehicles. |
+| 14    | ![#ff6d4c](https://via.placeholder.com/15/ff6d4c/000000?text=+) | Cropland/Natural Vegetation Mosaics: mosaics of small-scale cultivation 40-60% with natural tree, shrub, or herbaceous vegetation. |
+| 15    | ![#69fff8](https://via.placeholder.com/15/69fff8/000000?text=+) | Permanent Snow and Ice: at least 60% of area is covered by snow and ice for at least 10 months of the year. |
+| 16    | ![#f9ffa4](https://via.placeholder.com/15/f9ffa4/000000?text=+) | Barren: at least 60% of area is non-vegetated barren (sand, rock, soil) areas with less than 10% vegetation. |
+| 17    | ![#1c0dff](https://via.placeholder.com/15/1c0dff/000000?text=+) | Water Bodies: at least 60% of area is covered by permanent water bodies. |
+
+
+
+
+
 There is a parameter to measure the amount of clouds,CLOUDY_PIXEL_PERCENTAGE = 10% (only 2 images for Quindio that meet with this condition and 16 min for downloading), in the zone. In this case, the umbral is 100%, which means that the zone is basically covered by clouds. In Quindio department, they surveys were collected between July and November 2022. 
 
 The bands are ['B4', 'B3', 'B2']. According to chatGPT,  Land Use and Land Cover (LULC) classification often involves using different combinations of spectral bands to distinguish between different land cover types. While true-color RGB imagery is useful for visualization, for LULC classification, you typically use bands that are sensitive to different land cover characteristics. 
