@@ -27,7 +27,7 @@ For (LULC), we have
 | Dynamic World         | Sentinel-2            | 10m        | Near-real-time (NRT) Land Use/Land Cover (LULC) dataset. Includes class probabilities and label information for nine classes. |
 | MCD12Q1.061           | MODIS Terra and Aqua  | 500m       | MODIS Land Cover Type Yearly Global dataset at 500m resolution. |
 
-Based on the plot analysis, the MODIS is suitable for this case. For this we have the following options:
+Based on the plot analysis, the **MODIS** is suitable for this case. For this we have the following options:
 
 
  **LC_Type1 (Annual IGBP classification):**
@@ -54,23 +54,6 @@ The classes in the IGBP classification system cover a broad range of land cover 
 
 Researchers and scientists use the IGBP classification to interpret satellite imagery, conduct land cover change analysis, and understand the distribution of different land cover types across regions and continents. The classification system is a valuable tool for studying and monitoring the dynamics of the Earth's surface and its changes over time.
 
-
-
-Ahi que quitar esto:
-
-| Value | Color   | Color Value | 
-|-------|---------|-------------|
-| 1     | Saturated or defective | ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) |
-| 2     | Dark Area Pixels | ![#404040](https://via.placeholder.com/15/404040/000000?text=+) |
-| 3     | Cloud Shadows | ![#8b4513](https://via.placeholder.com/15/8b4513/000000?text=+) |
-| 4     | Vegetation | ![#008000](https://via.placeholder.com/15/008000/000000?text=+) |
-| 5     | Bare Soils | ![#ffd700](https://via.placeholder.com/15/ffd700/000000?text=+) |
-| 6     | Water | ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) |
-| 7     | Clouds Low Probability / Unclassified | ![#808080](https://via.placeholder.com/15/808080/000000?text=+) |
-| 8     | Clouds Medium Probability | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) |
-| 9     | Clouds High Probability | ![#d3d3d3](https://via.placeholder.com/15/d3d3d3/000000?text=+) |
-| 10    | Cirrus | ![#add8e6](https://via.placeholder.com/15/add8e6/000000?text=+) |
-| 11    | Snow / Ice | ![#87ceeb](https://via.placeholder.com/15/87ceeb/000000?text=+) |
 
 
 | Value | Color | Description |
