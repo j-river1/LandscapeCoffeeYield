@@ -142,6 +142,10 @@ Once we have the data and area, we proceed with metrics for landscape. We are us
 
 # References
 
+https://developers.google.com/earth-engine/guides/exporting_images#setting_scale
+
+https://datacarpentry.org/semester-biology/materials/spatial-data-cropping-R/
+
 https://r-spatialecology.github.io/landscapemetrics/
 
 https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/
