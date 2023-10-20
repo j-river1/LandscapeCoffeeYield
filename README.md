@@ -133,6 +133,18 @@ Adjust Buffer Settings (Optional):
 5. **Check the Result:**
    - Once the tool completes, add the reprojected layer to your map and check its properties to ensure it now uses a projected CRS.
 
+### Hansen Global Forest Change v1.10 (2000-2022)
+
+Results from time-series analysis of Landsat images in characterizing global forest extent and change.
+The 'first' and 'last' bands are reference multispectral imagery from the first and last available years for Landsat spectral bands corresponding to red, NIR, SWIR1, and SWIR2. Reference composite imagery represents median observations from a set of quality-assessed growing-season observations for each of these bands.
+
+Please see the User Notes for this Version 1.10 update, as well as the associated journal article: Hansen, Potapov, Moore, Hancher et al. "High-resolution global maps of 21st-century forest cover change." Science 342.6160 (2013): 850-853.
+
+| Name          | Units | Min | Max | Wavelength | Description                                                                                               |
+|---------------|-------|-----|-----|------------|-----------------------------------------------------------------------------------------------------------|
+| treecover2000 | %     | 0   | 100 | -          | Tree canopy cover for the year 2000, defined as canopy closure for all vegetation taller than 5m in height. |
+| loss          | -     | -   | -   | -          | Forest loss during the study period, defined as a stand-replacement disturbance.                            |
+
 
 
 
@@ -141,6 +153,8 @@ Adjust Buffer Settings (Optional):
 Once we have the data and area, we proceed with metrics for landscape. We are using the package in R landscapemetrics. 
 
 # References
+
+https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2022_v1_10
 
 https://developers.google.com/earth-engine/guides/exporting_images#setting_scale
 
