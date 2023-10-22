@@ -154,6 +154,8 @@ Once we have the data and area, we proceed with metrics for landscape. We are us
 
 # References
 
+https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-23-parallelisation/
+
 https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2022_v1_10
 
 https://developers.google.com/earth-engine/guides/exporting_images#setting_scale
