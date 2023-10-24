@@ -132,6 +132,22 @@ Adjust Buffer Settings (Optional):
 
 5. **Check the Result:**
    - Once the tool completes, add the reprojected layer to your map and check its properties to ensure it now uses a projected CRS.
+  
+
+### Commands Linux
+
+All process: 
+   -ps aux
+
+State of process:
+   -ps aux | grep <PID>
+
+Run:
+nohup  Rscript  /Landscape/scripts/Quindio_FORESTHANSEN_1_UnirForestHansenyLotes.R > /results/myoutput.log 2>&1 &
+
+Kill process:
+kill <PID>
+
 
 ### Hansen Global Forest Change v1.10 (2000-2022)
 
