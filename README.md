@@ -140,14 +140,16 @@ All process:
    -ps aux
 
 State of process:
-   -ps aux | grep <PID>
+   -ps aux | grep PID
 
 Run:
 nohup  Rscript  /Landscape/scripts/Quindio_FORESTHANSEN_1_UnirForestHansenyLotes.R > /results/myoutput.log 2>&1 &
 
 Kill process:
-kill <PID>
+kill PID
 
+All process:
+ps -u juan
 
 ### Hansen Global Forest Change v1.10 (2000-2022)
 
