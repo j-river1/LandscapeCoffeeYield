@@ -166,11 +166,44 @@ Please see the User Notes for this Version 1.10 update, as well as the associate
 
 
 
+
+### MYD11A1.061 Aqua Land Surface Temperature and Emissivity Daily Global 1km
+
+The MYD11A1 V6.1 product provides daily land surface temperature (LST) and emissivity values in a 1200 x 1200 kilometer grid. The temperature value is derived from the MYD11_L2 swath product. Above 30 degrees latitude, some pixels may have multiple observations where the criteria for clear-sky are met. When this occurs, the pixel value is the average of all qualifying observations. Provided along with both the day-time and night-time surface temperature bands and their quality indicator layers are MODIS bands 31 and 32 and six observation layers.
+
+# Thermal Infrared Land Surface Temperature (LST) Data
+
+## Resolution
+- 1000 meters
+
+## Bands
+
+| Name             | Units | Min   | Max   | Scale | Offset | Description                                 |
+|------------------|-------|-------|-------|-------|--------|---------------------------------------------|
+| LST_Day_1km      | K     | 7500  | 65535 | 0.02  |        | Daytime Land Surface Temperature            |
+| QC_Day           |       |       |       |       |        | Daytime LST Quality Indicators              |
+| Bitmask for QC_Day:                          |
+| - Day_view_time  | h     | 0     | 240   | 0.1   |        | Local time of day observation               |
+| - Day_view_angle | deg   | 0     | 130   |       | -65    | View zenith angle of day observation        |
+| LST_Night_1km    | K     | 7500  | 65535 | 0.02  |        | Nighttime Land Surface Temperature          |
+| QC_Night         |       |       |       |       |        | Nighttime LST Quality indicators            |
+| Bitmask for QC_Night:                        |
+| - Night_view_time| h     | 0     | 240   | 0.1   |        | Local time of night observation             |
+| - Night_view_angle| deg  | 0     | 130   |       | -65    | View zenith angle of night observation      |
+| Emis_31          |       | 1     | 255   | 0.002 | 0.49   | Band 31 emissivity                          |
+| Emis_32          |       | 1     | 255   | 0.002 | 0.49   | Band 32 emissivity                          |
+| Clear_day_cov    |       | 1     | 65535 | 0.0005|        | Day clear-sky coverage                      |
+| Clear_night_cov  |       | 1     | 65535 | 0.0005|        | Night clear-sky coverage                    |
+
+
+
 ## Methods
 
 Once we have the data and area, we proceed with metrics for landscape. We are using the package in R landscapemetrics. 
 
 # References
+
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1
 
 https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-23-parallelisation/
 
