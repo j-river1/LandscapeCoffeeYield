@@ -209,6 +209,8 @@ Once we have the data and area, we proceed with metrics for landscape. We are us
 
 # References
 
+https://www.worldclim.org/data/worldclim21.html
+
 https://data.isimip.org/
 
 https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1
