@@ -203,6 +203,8 @@ Once we have the data and area, we proceed with metrics for landscape. We are us
 
 # References
 
+https://data.isimip.org/
+
 https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD11A1
 
 https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-23-parallelisation/
