@@ -1,5 +1,6 @@
 # Landscape Coffee Yield
-Exploring the vast landscape of my PhD research journey, where the cultivation of knowledge meets the art of yielding impactful insights. Navigating the complexities with precision, much like the delicate process of growing the perfect blend. Join me in this academic odyssey where innovation and yield converge, shaping a landscape of discovery. 
+Exploring the vast landscape of my PhD research journey, where the cultivation of knowledge meets the art of yielding impactful insights. Navigating the complexities with precision, much like the delicate process of growing the perfect blend. Join me in this academic odyssey where innovation and yield converge, shaping a landscape of discovery. This paragraph is not mine, it is from Chatgpt. I would write something like this is repository where I will store all my workflow for landscape and yield prediction for coffee crop. In this file you will find all the references and methodoloy that I will use. Enjoy :)
+
 
 
 ![Coffee and Code](https://live.staticflickr.com/65535/50982571191_602f5b148c_k.jpg)
