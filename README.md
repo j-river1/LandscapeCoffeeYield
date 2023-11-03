@@ -92,8 +92,10 @@ False Color Infrared (FCIR): Bands 8 (NIR), 4 (Red), and 3 (Green).
 Normalized Difference Vegetation Index (NDVI): Bands 8 (NIR) and 4 (Red).
 
 
+### Read Point 
 
-I apologize for any confusion in my previous messages. It seems there might have been some misunderstanding. The "Reproject layer" tool is not available directly in the Processing Toolbox by default. Instead, you can use the "Reproject" tool from the main QGIS menu. Here's how you can access it:
+1. Go to layer -> Add Delimited Text. 
+2. Click right then filter CRS EPSG 4326
 
 
 ###  Create Buffers Around Points:
